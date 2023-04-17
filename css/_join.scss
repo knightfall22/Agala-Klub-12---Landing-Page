@@ -1,0 +1,16 @@
+.join {
+    grid-column: full-start / center-end;
+    margin: 15rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    align-items: center;
+
+    @media only screen and (max-width: $bp-medium) { 
+        gap: 5rem;
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, min-content);
+    }
+    &__img{
+        width: 90%;
+    }
+  }

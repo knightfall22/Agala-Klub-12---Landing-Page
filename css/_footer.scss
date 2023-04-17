@@ -1,0 +1,63 @@
+.footer {
+    background-color: $color-primary;
+    grid-column: sidebar-start / span 11;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: [sidebar-start] 8rem[sidebar-end full-start] 
+        minmax(6rem, 1fr)[center-start] repeat(8, [col-start] 
+        minmax(min-content, 14rem)[col-end])[center-end] 8rem[full-end];
+
+    
+        @media only screen and (max-width: $bp-medium) { 
+            grid-template-columns: [sidebar-start] 1.5rem[sidebar-end full-start] 
+                minmax(6rem, 1fr)[center-start] repeat(8, [col-start] 
+                minmax(min-content, 14rem)[col-end])[center-end] 1.5rem[full-end];
+        }
+    position: relative;
+
+    &__map {
+        display: flex;
+        align-items: start;
+        column-gap: .5rem;
+        width: 68%;
+        text-align: left;
+        font-size: 1.3rem;
+        @media only screen and (max-width: $bp-smallest) { 
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    &__logo {
+        @media only screen and (max-width: $bp-smallest) { 
+            text-align: center;
+        }
+    }
+    &__contents{
+        grid-column: full-start / center-end;
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+
+        .copyright{
+            font-size: 1.3rem;
+            text-align: center;
+        }
+    }
+
+    &__nav {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+
+        @media only screen and (max-width: $bp-medium) { 
+            flex-direction: column;
+        }
+    }
+
+    hr{
+        width: 72%;
+        margin: 0 auto;
+        color: #0000004f;
+    }
+}

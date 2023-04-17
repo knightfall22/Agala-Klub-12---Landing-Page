@@ -1,0 +1,111 @@
+//COLOR VARIABLES
+$color-bg: #FFFA9C;
+$color-primary: #0297D3;
+$color-secondary: #FFC82F;
+
+$color-black: #000000; 
+$color-grey: #646464;
+$color-grey-2: #7a7a7a;
+
+
+//RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; //1200px
+$bp-large:62.5em;//100px
+$bp-medium:56em;//900px
+$bp-small:40.6em;//650px
+$bp-smallest:31.25em;//650px
+
+//Fonts 
+$font-family: 'Muli', sans-serif;
+$font-nav: 'Montserrat', sans-serif;
+//$font-logo: ''
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'African';
+    src: url('/font/BurowaiRegular-3zVjX.ttf');
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+    @media only screen and (max-width: $bp-largest) {
+       font-size:  50%;
+    }
+}
+
+body{ 
+    font-family: $font-family;
+    font-weight: 400;
+    line-height: 1.5;
+    color: $color-black;
+    background-color: $color-bg;
+} 
+
+
+
+.container{
+    grid-template-rows: 90vh min-content min-content min-content min-content;
+    grid-template-columns: [sidebar-start] 8rem[sidebar-end full-start] 
+        minmax(6rem, 1fr)[center-start] repeat(8, [col-start] 
+        minmax(min-content, 14rem)[col-end])[center-end] 8rem[full-end];
+    display: grid;
+
+    @media only screen and (max-width: $bp-medium) { 
+        grid-template-rows: min-content min-content min-content min-content min-content;
+        grid-template-columns: [sidebar-start] 3rem[sidebar-end full-start] 
+            minmax(6rem, 1fr)[center-start] repeat(8, [col-start] 
+            minmax(min-content, 14rem)[col-end])[center-end] 3rem[full-end];
+    }
+    
+    @media only screen and (max-width: $bp-medium) { 
+        grid-template-rows: min-content min-content min-content min-content min-content;
+        grid-template-columns: [sidebar-start] 1.5rem[sidebar-end full-start] 
+            minmax(6rem, 1fr)[center-start] repeat(8, [col-start] 
+            minmax(min-content, 14rem)[col-end])[center-end] 1.5rem[full-end];
+    }
+    
+
+    // @media only screen and (max-width: $bp-largest) {
+    //        grid-template-rows: 6rem 80vh min-content 40vw repeat(3,min-content);
+    //        grid-template-columns: [full-start] minmax(6rem,1fr)[center-start] 
+    //        repeat(8,[col-start] minmax(min-content,14rem) [col-end])[center-end] minmax(6rem,1fr)[full-end]; 
+    // }
+    //     @media only screen and (max-width: $bp-medium) {
+    //         grid-template-rows: 6rem calc(100vh - 6rem);
+    //     }
+}
+
+
+.margin-bottom-2{
+    margin-bottom: 2rem;
+} 
+
+.margin-top-3{
+    margin-top: 3rem;
+} 
+
+.margin-left-2{
+    margin-left: 2rem;
+} 
+
+.margin-left-8{
+    margin-left: 8rem;
+} 
+
+.mt-m-4{
+    margin-top: -4rem;
+}
+
+.ml-m-11{
+    margin-left: -11rem;
+}

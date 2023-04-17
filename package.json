@@ -1,0 +1,21 @@
+{
+  "name": "Agala Klub",
+  "version": "1.0.0",
+  "description": "",
+  "default": "./js/script.js",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --dist-dir public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.30.1",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
