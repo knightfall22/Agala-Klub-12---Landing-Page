@@ -5,7 +5,7 @@
   "default": "./js/script.js",
   "source": "./index.html",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel index.html",
     "build": "parcel build --dist-dir public"
   },
   "keywords": [],

@@ -92,7 +92,7 @@
     &__list{
         display: flex;
         align-items: center;
-        gap: 6rem;
+        gap: 5rem;
         list-style-type: none;
         @media only screen and (max-width: $bp-medium) { 
             gap: 2rem;
