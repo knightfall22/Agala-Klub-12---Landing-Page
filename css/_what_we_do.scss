@@ -34,7 +34,14 @@
     align-items: center;
     padding: 2rem 0;
     height: 50rem;
+    opacity: 0;
+    transition: all 1s;
 
+    @media(prefers-reduced-motion) {
+        transition: none;
+    }
+
+ 
     @media only screen and (max-width: $bp-medium) {
         height: 15rem;
         background: #000;
@@ -82,13 +89,27 @@
             margin-top: 0;
         }
     }
+
+    //Animation
+    &:nth-child(2) {
+        transition-delay: 200ms;
+    }
+    &:nth-child(3) {
+        transition-delay: 400ms;
+    }
+    &:nth-child(4) {
+        transition-delay: 600ms;
+    }
 }
 
 .text-box{
     &__paragraph {
         width: 84%;
         font-size: 1.5rem;
-        color: $color-grey-2;
+        color: $color-black;
+        font-weight: 600;
+        line-height: 1.5;
+        
 
         @media only screen and (max-width: $bp-medium) {
             font-size: 1.8rem;

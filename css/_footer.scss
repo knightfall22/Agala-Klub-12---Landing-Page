@@ -3,6 +3,7 @@
     grid-column: sidebar-start / span 11;
     padding: 5rem;
     display: grid;
+    color: #fff;
     grid-template-columns: [sidebar-start] 8rem[sidebar-end full-start] 
         minmax(6rem, 1fr)[center-start] repeat(8, [col-start] 
         minmax(min-content, 14rem)[col-end])[center-end] 8rem[full-end];
@@ -53,6 +54,11 @@
         @media only screen and (max-width: $bp-smallest) { 
             flex-direction: column;
         }
+    }
+
+    .nav__link {
+        color: #f4f4f4;
+        background-image: linear-gradient(90deg, #0000 0 50%, $color-black 50%);
     }
 
     hr{

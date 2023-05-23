@@ -1,12 +1,13 @@
 //COLOR VARIABLES
-$color-bg: #FFFA9C;
-$color-primary: #0297D3;
+$color-bg: #ffc82f;//#FFFA9C;
+$color-primary: #003eff;//#0297D3;
 $color-secondary: #FFC82F;
 
 $color-black: #000000; 
 $color-grey: #646464;
 $color-grey-2: #7a7a7a;
 
+$bg-gradient: radial-gradient(circle, #003eff, #003df9, #003cf3, #013aed, #0139e7);
 
 //RESPONSIVE BREAKPOINTS
 $bp-largest: 75em; //1200px

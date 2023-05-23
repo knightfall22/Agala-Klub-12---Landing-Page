@@ -5,6 +5,7 @@
     padding: 6.5rem 10rem;
     border-radius: 1rem;
     position: relative;
+    background-image: $bg-gradient;
 
     img{
         position: absolute;
@@ -28,7 +29,9 @@
         font-size: 1.35rem;
         line-height: 1.7;
         font-weight: 600;
+        color: #fff;
         
+
         @media only screen and (max-width: $bp-medium) { 
             width: 90%;
             font-size: 1.5rem;
