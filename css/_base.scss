@@ -61,6 +61,7 @@ body{
         minmax(min-content, 14rem)[col-end])[center-end] 8rem[full-end];
     display: grid;
 
+    overflow: hidden !important;
     @media only screen and (max-width: $bp-medium) { 
         grid-template-rows: min-content min-content min-content min-content min-content;
         grid-template-columns: [sidebar-start] 3rem[sidebar-end full-start] 
@@ -68,11 +69,11 @@ body{
             minmax(min-content, 14rem)[col-end])[center-end] 3rem[full-end];
     }
     
-    @media only screen and (max-width: $bp-medium) { 
+    @media only screen and (max-width: $bp-small) { 
         grid-template-rows: min-content min-content min-content min-content min-content;
-        grid-template-columns: [sidebar-start] 1.5rem[sidebar-end full-start] 
+        grid-template-columns: [sidebar-start] 1rem[sidebar-end full-start] 
             minmax(6rem, 1fr)[center-start] repeat(8, [col-start] 
-            minmax(min-content, 14rem)[col-end])[center-end] 1.5rem[full-end];
+            minmax(min-content, 14rem)[col-end])[center-end] 1rem[full-end];
     }
     
 
