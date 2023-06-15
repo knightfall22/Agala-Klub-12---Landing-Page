@@ -47,6 +47,13 @@ export const profiles = [
    C.E.O Fadmart Int.Nig.Ltd. but presently C.E.O Fadmart Block Industry lagos, importer and exporter."`,
 
   null,
+  `"My name is  Babajide Olumuyiwa Adamolekun,  I was born and grew up in ibadan, precisely, Fatimo, Railway Line. My family's home address is; SW9/308A, Railway Line, AgoTaylor, Odo-Ona, Ibadan.
+
+I went to I.M.G, Apata for my primary education and also went to Apata Community Grammar School for my Secondary education. I went to the Federal Polytechnic Ede for both my N.D and HND program.
+I am presently a Forex trader and also a farmer.
+My email addresses are: jerry4mum@gmail.com  and jideadams@gmail.com 
+My mobile phone numbers are 09070681304, 08068474930.
+I joined this club, Agala Klub 12, on the 17th of May, 2021."`,
 
   `"My name is FADUMILA AYODELE, I was born in ibadan and grew up at oju irin ,agala Area. I went to CKC primary school and odo ona high school for my post primary.I further to Federal poly Ado Ekiti for my ND and HND in business administration and mgt studies.i worked at AMSEK oil and gas and TESSY Energy LTD as a manager.  Presently , running my business on oil and gas business under STK PRUDENT MULTICONCEPT NIG LTD as a director." `,
 
