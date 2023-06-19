@@ -30,7 +30,9 @@ export const profiles = [
 
   `"My name is Engr. Bola Olowe FNSE, FNIEE. I grew up in Olowe Lane, Ago - Taylor and my family’s house address is SW9/440, Olowe Lane, Ago – Tailor. Presently I am the Managing Director of Bolcon Associates Ltd, a company that specializes in Project Management, Engineering Consulting, Training, Research and Development. Our office is at Fundex Building, Behind Glory Tabernacle Church, Bodija – Ashi Road, Bodija, Ibadan. I am also the President of Grace Leadership Foundation, a Non-Governmental, Faith-based Organization with the Vision of Raising the Foundations of Many Generations, through the provision of leadership training and development, mentoring and sponsorship of our youths"`,
 
-  null,
+  `"My name is Mr Adeniyi George Soremekun, from the  Soremekun family at SW9/534,Fagbemi Street, Odo-Ona,  Ibadan. 
+  I attended at C.K.C primary School and also Motailatu College both in Odo-Ona. 
+  I am the CEO of Ganifield Tailoring and Fashion Designing."`,
 
   `"My name is SIKIRU KOLAWOLE KADIRI. I was born and grew up at SW9/659A, Desalu Street, Odo Ona, lbadan. I went to CKC Primary School, Odo Ona and high school at Anglican Secondary Modern School, at  Orita Mefa, lbadan, now Anglican Secondary School, later had my WAEC A levels, Diploma in Salesmanship at UK long distance studies and proceeded to learn Electronics engineering at lbadan. I later joined Eko Hotels & Suites, Victoria lsland, Lagos and retired as a Business Supervisor. Presently l am into Hotel Business Consultant and selling of imported Electronics appliances. My present address is at No 31 Association Avenue, Folarin Estate, ltoki, Ogun State."`,
 
