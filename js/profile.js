@@ -64,5 +64,14 @@ I joined this club, Agala Klub 12, on the 17th of May, 2021."`,
   I joined this Club on 17th of May 2021"`,
 
   `"My name is Olayinka Tejuosho. I lived and grew up at SW9/309 Ago Taylor Street, Odo Ona lbadan. I attended the CKC Primary School, Odo Ona, Alafia institute Mokola, Government College Ibadan and the University of Lagos with degrees in Architecture, Town Planning and Project Management. I retired as a Deputy Director at the Federal Ministry of Environment, Abuja in 2019. I currently reside in the United States."`,
-
+  `"My name is Olusola Ogungbade of
+  Sw9/303, Railway line, Odo -ona, Ibadan.
+   Education -  CKC Pry School, Odo -ona, 
+   Oke'badan High school, Oluyoro Oke- Offa, Ibadan , Ajebo High school, Ajebo, Abeokuta.
+    I studied English language and Music at the Federal College of Education, Abeokuta. 
+    I also studied English language and Russian at the University of Ibadan.
+   I proceeded to the Pushkin Institute, Moscow where I studied Philology. 
+   I also hold a Master's degree in European studies from the University of Ibadan.
+     I am a school Adminstrator, I sell Paints and I paint.
+    I am a full fledged family man, a  grandfather ,  a liberal Christian, I have been privileged to travel to some countries in Africa and Europe and I speak some International languages. I live in Ibadan."`,
 ];
